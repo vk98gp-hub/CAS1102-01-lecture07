@@ -1,14 +1,14 @@
 #include <iostream>
 
 
-// TODO: Define a structure named "Node".
-// It should hold a single character and a pointer to the next Node.
+// TODO: Define a struct named "Node".
+// The struct should include a single character ch followed by a pointer, which will indicate the next Node.
 // Think of it as one link in a chain of characters.
 
 
 // TODO: Implement the makeList function.
-// It should start with empty head and tail pointers,
-// then go through the given string to create and connect each Node in order.
+// It should start with empty head and tail pointers.
+// Then, go through the given string to create and connect each Node in order.
 void makeList(const char* s, Node*& head, Node*& tail) {
 
 }
@@ -33,7 +33,7 @@ int main() {
 
 
     // TODO: Connect the two linked lists so that printing them together
-    // will display "Hello {yourName}" in one line.
+    // printList function should display "Hello {yourName}" in one line.
 
 
     printList(helloHead);
